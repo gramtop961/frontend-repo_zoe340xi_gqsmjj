@@ -5,7 +5,7 @@ export default function Hero3D() {
   return (
     <section className="relative h-[92vh] md:h-screen w-full overflow-hidden bg-[#0b1020]">
       <div className="absolute inset-0 z-0">
-        <Spline scene="https://prod.spline.design/FduaNp3csZktbOi3/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <Spline scene="https://prod.spline.design/qQUip0dJPqrrPryE/scene.splinecode" style={{ width: '100%', height: '100%' }} />
       </div>
 
       {/* Volumetric light + gradient vignettes (non-blocking) */}
