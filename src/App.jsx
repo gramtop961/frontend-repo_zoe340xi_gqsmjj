@@ -6,7 +6,7 @@ import FloatingShapes from './components/FloatingShapes';
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-black font-sans text-white">
+    <div className="min-h-screen w-full bg-[#0b1020] font-sans text-white">
       <HeaderNav />
 
       <main className="relative">
@@ -21,10 +21,12 @@ function App() {
       </main>
 
       {/* Subtle bottom gradient to blend into rest of page */}
-      <div className="pointer-events-none relative z-10 h-40 w-full"
-           style={{
-             background: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 80%)',
-           }}
+      <div
+        className="pointer-events-none relative z-10 h-40 w-full"
+        style={{
+          background:
+            'linear-gradient(to bottom, rgba(11,16,32,0) 0%, rgba(11,16,32,1) 80%)',
+        }}
       />
 
       {/* Placeholder sections (non-intrusive) */}
@@ -36,7 +38,7 @@ function App() {
       </section>
 
       <footer className="mx-auto max-w-7xl px-6 pb-10 text-white/40">
-        © {new Date().getFullYear()} Nebula Studio. All rights reserved.
+        © {new Date().getFullYear()} Thamilarsan G P. All rights reserved.
       </footer>
     </div>
   );
